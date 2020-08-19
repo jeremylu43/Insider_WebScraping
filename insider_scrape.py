@@ -1,3 +1,6 @@
+#Author: Jeremy LU
+#Given a company ticker code, will collect all Insider transactions since 2018 and output it in CSV form.
+
 import pandas as pd
 from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys   # For keyboard keys 
